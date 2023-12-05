@@ -39,7 +39,7 @@ const CardContainer1 = ({ imgUrl,name,price}) => {
             alt=""
             src="/arrowsout.svg"
           />
-          <div className="relative leading-[16.27px] font-medium">
+          <div className=" leading-[16.27px] font-medium">
             2,096.00 ft
           </div>
         </div>
