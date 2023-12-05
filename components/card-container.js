@@ -1,11 +1,10 @@
-
-const CardContainer = ({imgUrl}) => {
+const CardContainer = ({ imgUrl}) => {
   return (
     <div className="rounded-3xs bg-gray-white box-border w-[350px] h-[467px] flex flex-col items-start justify-start py-[15px] px-[13px] gap-[23px] text-left text-[14.51px] text-gray-700 font-body-large-400 border-[1px] border-solid border-whitesmoke-100 hover:bg-gainsboro hover:cursor-pointer sm:w-[100%!important] sm:mb-5">
       <img
         className="self-stretch relative rounded-3xs max-w-full overflow-hidden h-[200px] shrink-0 object-cover"
         alt=""
-        src={imgUrl}
+        src="/property-image7@2x.png"
       />
       <div className="self-stretch flex flex-row items-start justify-start p-2.5">
         <div className="flex-1 relative leading-[20.32px] font-medium">
@@ -50,7 +49,7 @@ const CardContainer = ({imgUrl}) => {
           <img
             className="relative rounded-[50%] w-[27.6px] h-[27.6px] object-cover"
             alt=""
-            src={imgUrl}
+            src="/ellipse-1@2x.png"
           />
           <div className="relative leading-[17.42px] font-medium">
             Jenny Wilson
