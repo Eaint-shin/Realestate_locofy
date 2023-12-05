@@ -128,7 +128,7 @@ const HomeFinderContainer = () => {
                 </Dropdown>
               </div>
               <button
-                className="cursor-pointer [border:none] py-3 px-6 bg-primary-500 rounded w-[102px] flex flex-row items-center justify-center box-border hover:bg-darkslateblue md:w-full md:hover:items-center md:hover:justify-center sm:self-stretch sm:w-auto sm:max-w-full sm:hover:self-stretch sm:hover:w-auto sm:hover:max-w-full"
+                className="cursor-pointer [border:none] py-3 px-6 bg-steelblue rounded w-[102px] flex flex-row items-center justify-center box-border hover:bg-darkslateblue md:w-full md:hover:items-center md:hover:justify-center sm:self-stretch sm:w-auto sm:max-w-full sm:hover:self-stretch sm:hover:w-auto sm:hover:max-w-full"
                 onClick={onSearchCTAClick}
               >
                 <div className="relative text-base leading-[24px] font-medium font-body-large-400 text-gray-white text-center">
