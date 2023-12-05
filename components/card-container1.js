@@ -1,19 +1,19 @@
-const CardContainer1 = ({ imageDimensions }) => {
+const CardContainer1 = ({ imgUrl,name,price}) => {
   return (
     <div className="flex-1 rounded-3xs bg-gray-white box-border h-[467px] flex flex-col items-start justify-start py-[15px] px-[13px] gap-[23px] min-w-[355px] max-w-[400px] text-left text-[14.51px] text-gray-700 font-body-large-400 border-[1px] border-solid border-whitesmoke-100 hover:bg-gainsboro hover:cursor-pointer sm:w-[100%!important] sm:mb-5">
       <img
         className="self-stretch relative rounded-3xs max-w-full overflow-hidden h-[200px] shrink-0 object-cover"
         alt=""
-        src={imageDimensions}
+        src={imgUrl}
       />
       <div className="self-stretch flex flex-row items-start justify-start p-2.5">
         <div className="flex-1 relative leading-[20.32px] font-medium">
-          92 ALLIUM PLACE, ORLANDO FL 32827
+         {name}
         </div>
       </div>
       <div className="self-stretch flex flex-row items-start justify-start p-2.5 text-[13.55px] text-primary-500">
         <div className="relative leading-[18.98px] font-semibold">
-          $ 590,693
+          ${price}
         </div>
       </div>
       <div className="self-stretch flex flex-row items-start justify-start py-0 px-2.5 gap-[17px] text-[10.84px] text-gray-500">

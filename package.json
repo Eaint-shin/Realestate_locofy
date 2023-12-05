@@ -3,12 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@supabase/supabase-js": "^2.39.0",
+    "antd": "^4.17.4",
+    "csv-parser": "^3.0.0",
     "next": "^13.2.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.2.1",
-    "antd": "^4.17.4",
-    "@ant-design/icons": "^4.7.0"
+    "react-router-dom": "^6.2.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.8",
@@ -20,5 +22,18 @@
     "build": "next build && next export -o build/",
     "start": "next start",
     "lint": "next lint"
-  }
+  },
+  "description": "Note: Please ensure you have installed <code><a href=\"https://nodejs.org/en/download/\">nodejs</a></code>",
+  "main": "next.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eaint-shin/Realestate_locofy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eaint-shin/Realestate_locofy/issues"
+  },
+  "homepage": "https://github.com/Eaint-shin/Realestate_locofy#readme"
 }

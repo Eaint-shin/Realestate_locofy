@@ -7,7 +7,7 @@ const HomeFinderContainer = () => {
   const router = useRouter();
 
   const onSearchCTAClick = () => {
-    router.push("/properties-grid-view");
+    router.push("/landingPage");
   };
 
   return (

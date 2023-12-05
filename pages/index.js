@@ -8,9 +8,10 @@ import RentPropertiesForm from "../components/rent-properties-form";
 import RentCardContainer from "../components/rent-card-container";
 import FormContainer from "../components/form-container";
 
+
 const LandingPage = () => {
   return (
-    <div className="relative bg-gray-white w-full h-[5096px] flex flex-col items-center justify-start">
+    <div className="relative bg-gray-white w-full flex flex-col items-center justify-start">
       <HomeFinderContainer />
       <FilteredFormCard />
       <PropertiesByAreaImagesSectionC />

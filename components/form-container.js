@@ -23,7 +23,7 @@ const FormContainer = ({ propOverflow }) => {
               </div>
             </div>
           </div>
-          <div className="self-stretch h-[168px] flex flex-col items-start justify-start gap-[13px] text-left text-base text-gray-500 font-body-regular-400">
+          <div className=" h-[168px] flex flex-col items-start justify-start gap-[13px] text-left text-base text-gray-500 font-body-regular-400">
             <div className="relative text-5xl leading-[32px] font-semibold text-gray-black">
               Contact Us
             </div>
@@ -74,34 +74,34 @@ const FormContainer = ({ propOverflow }) => {
             </div>
           </div>
         </div>
-        <div className="w-[173px] h-[248px] flex flex-col items-start justify-start gap-[32px]">
-          <div className="relative leading-[32px] font-semibold">Features</div>
+        <div className="w-[173px]  flex flex-col items-start justify-start gap-[32px]">
+          <div className="leading-[32px] font-semibold">Features</div>
           <div className="self-stretch h-[184px] flex flex-col items-start justify-start gap-[16px] text-base text-gray-500">
-            <div className="relative leading-[24px]">Home</div>
-            <div className="relative leading-[24px]">Become a Host</div>
-            <div className="relative leading-[24px]">Pricing</div>
-            <div className="relative leading-[24px]">Blog</div>
-            <div className="relative leading-[24px]">Contact</div>
+            <div className="leading-[24px]">Home</div>
+            <div className="leading-[24px]">Become a Host</div>
+            <div className="leading-[24px]">Pricing</div>
+            <div className="leading-[24px]">Blog</div>
+            <div className="leading-[24px]">Contact</div>
           </div>
         </div>
-        <div className="w-[173px] h-[248px] flex flex-col items-start justify-start gap-[32px]">
-          <div className="relative leading-[32px] font-semibold">Company</div>
+        <div className="w-[173px]  flex flex-col items-start justify-start gap-[32px]">
+          <div className="leading-[32px] font-semibold">Company</div>
           <div className="self-stretch h-[184px] flex flex-col items-start justify-start gap-[16px] text-base text-gray-500">
-            <div className="relative leading-[24px]">About Us</div>
-            <div className="relative leading-[24px]">Press</div>
-            <div className="relative leading-[24px]">Contact</div>
-            <div className="relative leading-[24px]">Careers</div>
-            <div className="relative leading-[24px]">Blog</div>
+            <div className="leading-[24px]">About Us</div>
+            <div className="leading-[24px]">Press</div>
+            <div className="leading-[24px]">Contact</div>
+            <div className="leading-[24px]">Careers</div>
+            <div className="leading-[24px]">Blog</div>
           </div>
         </div>
         <div className="w-[203px] h-[168px] flex flex-col items-start justify-start gap-[32px]">
-          <div className="relative leading-[32px] font-semibold">
+          <div className="leading-[32px] font-semibold">
             Team and policies
           </div>
           <div className="self-stretch h-[104px] flex flex-col items-start justify-start gap-[16px] text-base text-gray-500">
-            <div className="relative leading-[24px]">Terms of servies</div>
-            <div className="relative leading-[24px]">Privacy Policy</div>
-            <div className="relative leading-[24px]">Security</div>
+            <div className="leading-[24px]">Terms of servies</div>
+            <div className="leading-[24px]">Privacy Policy</div>
+            <div className="leading-[24px]">Security</div>
           </div>
         </div>
       </footer>
